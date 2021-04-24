@@ -1,0 +1,27 @@
+{
+  "name": "devcamperapi",
+  "version": "1.0.0",
+  "description": "Devcamper backend API",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node server.js",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelacoronel/devCamperApi.git"
+  },
+  "author": "Marcela Coronel - ejercicio curso nodejs API-  UDEMY de Brad Traversy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcelacoronel/devCamperApi/issues"
+  },
+  "homepage": "https://github.com/marcelacoronel/devCamperApi#readme"
+}
